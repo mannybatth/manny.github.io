@@ -17,9 +17,9 @@ export default function Navigation() {
                 <li className="uppercase tracking-widest mr-7.5 first:ml-2.5 last:mr-0">
                     <a
                         className={`inline-block leading-[50px] hover:no-underline hoverLine ${
-                            isActive('/about-me') ? 'active' : ''
+                            isActive('/') ? 'active' : ''
                         }`}
-                        href={`${REPO_PREFIX}/about-me`}
+                        href={`${REPO_PREFIX}/`}
                     >
                         ABOUT ME <span className="block h-0.5 bg-gray-800 line css3Animate"></span>
                     </a>
