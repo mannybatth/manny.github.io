@@ -1,0 +1,22 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
+  "html.format.wrapLineLength": 140,
+  "html.format.wrapAttributes": "auto",
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+  "cSpell.words": ["tailwindcss"],
+  "headwind.runOnSave": true,
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "css.validate": false,
+  "less.validate": false,
+  "scss.validate": false,
+  "javascript.validate.enable": false,
+  "javascript.format.enable": false,
+  "typescript.surveys.enabled": false
+}
