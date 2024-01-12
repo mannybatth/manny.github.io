@@ -15,7 +15,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <html lang="en">
             <body className={inter.className}>
                 <Navigation />
-                <main className="pt-24 max-w-[720px] m-auto flex min-h-screen">
+                <main className="pt-24 pb-10 max-w-[720px] m-auto flex min-h-screen">
                     <div className="w-full">{children}</div>
                 </main>
                 <footer className="m-auto text-center h-32.5"></footer>

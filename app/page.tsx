@@ -1,6 +1,6 @@
 export default function AboutMeHome() {
     return (
-        <div className="flex flex-col">
+        <div className="flex flex-col px-4">
             <h1>Manpreet “Manny” Singh</h1>
             <h4>Full Stack Software Engineer</h4>
 
