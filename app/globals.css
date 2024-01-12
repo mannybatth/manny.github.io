@@ -3,25 +3,113 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+    :root {
+        --foreground-rgb: 255, 255, 255;
+        --background-start-rgb: 0, 0, 0;
+        --background-end-rgb: 0, 0, 0;
+    }
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    color: rgb(var(--foreground-rgb));
+    background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+main a {
+    color: #368fe0;
+    text-decoration: none;
+    outline: 0;
+    border: 0;
+    outline: 0;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+nav .css3Animate {
+    -webkit-transition: all 0.3s ease-in-out 0.001s;
+    transition: all 0.3s ease-in-out 0.001s;
+    -moz-transform: all 0.3s ease-in-out 0.001s;
+}
+
+nav .line {
+    width: 0;
+    margin-top: -12px;
+    margin-left: 50%;
+    background: rgb(var(--foreground-rgb));
+}
+
+/* Active state style for the line under nav items */
+nav ul li .active .line {
+    width: 97%;
+    margin-left: -1px;
+}
+
+/* Hover state styles for non-touch screens */
+@media (pointer: fine) {
+    nav ul li a:hover .line {
+        width: 97%;
+        margin-left: -1px;
+    }
+}
+
+/* Responsive design adjustments */
+
+/* Between 600px - 375px */
+@media (max-width: 600px) and (min-width: 375px) {
+    nav {
+        font-size: 11px;
+    }
+
+    nav .navIcon {
+        display: none;
+    }
+
+    nav ul li:nth-child(2) {
+        margin-right: 10px;
+    }
+
+    nav ul li:nth-child(3) {
+        margin-left: 20px;
+    }
+
+    main {
+        margin-top: 100px;
+    }
+}
+
+/* Less than 375px */
+@media (max-width: 374px) {
+    nav {
+        font-size: 10px;
+    }
+
+    nav .navIcon {
+        display: none;
+    }
+
+    nav ul li:nth-child(1) {
+        margin-left: 10px;
+        margin-right: 20px;
+    }
+
+    nav ul li:nth-child(2) {
+        margin-right: 10px;
+    }
+
+    nav ul li:nth-child(3) {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    main {
+        margin-top: 100px;
+    }
 }

@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
-import Image from 'next/image';
+import Navigation from './navigation';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -14,37 +14,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     return (
         <html lang="en">
             <body className={inter.className}>
-                <nav>
-                    <a href="/">
-                        <Image src="/assets/images/about-me-icon.png" alt={''} />
-                    </a>
-                    <ul>
-                        <li>
-                            <a href="/about-me">
-                                ABOUT ME <span></span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/projects">
-                                WORK <span></span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/assets/files/resume.pdf" target="_blank">
-                                RESUME <span></span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="/contact">
-                                CONTACT <span></span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
-                <main>
-                    <div>{children}</div>
+                <Navigation />
+                <main className="pt-24 max-w-[720px] m-auto flex min-h-screen">
+                    <div className="w-full">{children}</div>
                 </main>
-                <footer></footer>
+                <footer className="m-auto text-center h-32.5"></footer>
             </body>
         </html>
     );
