@@ -47,7 +47,7 @@ export default function AboutMeHome() {
                 <li>
                     First place in{' '}
                     <a
-                        href="https://www.angieslist.com/news-releases/team-glassworks-cracks-best-code-angie%E2%80%99s-list-inaugural-hack-day.htm"
+                        href="https://www.marketscreener.com/quote/stock/ANGI-HOMESERVICES-INC-9431478/news/Angie-List-Team-GlassWorks-Cracks-the-Best-Code-at-Angie-s-List-Inaugural-Hack-Day-18549337/"
                         target="_blank"
                     >
                         Angie’s List Hack Day
@@ -56,7 +56,10 @@ export default function AboutMeHome() {
                 </li>
                 <li>
                     Second place winner in{' '}
-                    <a href="https://www.topcoder.com/blog/feedthehack-hackathon/" target="_blank">
+                    <a
+                        href="https://web.archive.org/web/20140826211010/https://www.topcoder.com/blog/feedthehack-hackathon/"
+                        target="_blank"
+                    >
                         FeedTheHack hackathon by Appirio
                     </a>{' '}
                     for{' '}
