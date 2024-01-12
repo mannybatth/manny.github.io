@@ -15,7 +15,7 @@ export default function Contact() {
                 <a href="https://www.linkedin.com/in/likebeats" target="_blank">
                     <Image src={`${REPO_PREFIX}/images/linkedin-icon.png`} alt="LinkedIn" width={40} height={40} />
                 </a>
-                <a href="https://github.com/likebeats" target="_blank">
+                <a href="https://github.com/mannybatth" target="_blank">
                     <Image src={`${REPO_PREFIX}/images/github-icon.png`} alt="Github" width={40} height={40} />
                 </a>
                 <a href="https://wellfound.com/u/likebeats" target="_blank">
