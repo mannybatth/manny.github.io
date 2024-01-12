@@ -33,8 +33,8 @@ export default function AboutMeHome() {
                     Swift · Objective-C · JavaScript · TypeScript · Python · Java · C# · MEAN Stack · LAMP Stack ·
                     Node.js · React.js · Next.js · Angular · Vue.js · Xamarin · React Native · HTML5 · CSS3 ·
                     TailwindCSS · Bootstrap · Git · Xcode · Android Studio · Sketch · OOP · FP · MongoDB · PostgreSQL ·
-                    AWS · OpenAI · Google Cloud · Vertex AI · Heroku · Firebase · Docker · Linux · Windows · macOS · iOS
-                    · Android
+                    AWS · OpenAI · Google Cloud · Vertex AI · Heroku · Vercel · Firebase · Docker · Linux · Windows ·
+                    macOS · iOS · Android
                 </p>
 
                 <br />
