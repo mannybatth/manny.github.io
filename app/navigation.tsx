@@ -13,7 +13,7 @@ export default function Navigation() {
             {/* <a href="/" className="block mx-auto w-22 h-20 navIcon">
                         <Image src={`${REPO_PREFIX}/images/about-me-icon.png`} alt={''} width={100} height={100} />
                     </a> */}
-            <ul className="flex flex-row items-center justify-center p-0 m-auto list-none space-x-6">
+            <ul className="flex flex-row items-center justify-center p-0 m-auto list-none space-x-7">
                 <li className="uppercase tracking-widest mr-7.5 first:ml-2.5 last:mr-0">
                     <a
                         className={`inline-block leading-[50px] hover:no-underline hoverLine ${

@@ -4,7 +4,7 @@ import { REPO_PREFIX } from '../constants';
 export default function Contact() {
     return (
         <div className="flex flex-col text-center pt-16 px-4">
-            <h1 className="text-4xl">Get in contact with me</h1>
+            <h1>Get in contact with me</h1>
             <div className="flex flex-col items-center justify-center space-y-4 m-8 mb-12">
                 <div>317-224-5337</div>
                 <div>
