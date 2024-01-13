@@ -40,7 +40,7 @@ export default function AboutMeHome() {
                 <br />
                 <h2>Past Hackathons</h2>
 
-                <ul>
+                <ul className="list-disc list-inside sm:list-outside">
                     <li>
                         First place winner of{' '}
                         <a
