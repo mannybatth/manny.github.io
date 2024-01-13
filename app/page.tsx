@@ -49,12 +49,9 @@ export default function AboutMeHome() {
                         >
                             2013 SmartFile Platform Bake-Off
                         </a>{' '}
-                        for creating{' '}
-                        <a href="/#/projects/58f4c0f11915100c44de8b3b" target="_blank">
-                            SmartClip
-                        </a>
-                        , a Google Chrome extension that enables you to capture text, links, and images from articles
-                        and save them for later reading.
+                        for creating <a href={`${REPO_PREFIX}/projects/smartclip`}>SmartClip</a>, a Google Chrome
+                        extension that enables you to capture text, links, and images from articles and save them for
+                        later reading.
                     </li>
                     <li>
                         First place in{' '}
@@ -64,7 +61,8 @@ export default function AboutMeHome() {
                         >
                             Angie’s List Hack Day
                         </a>{' '}
-                        event. Created the first Google Glass app for Angie’s List SnapFix.
+                        event. Created the first{' '}
+                        <a href={`${REPO_PREFIX}/projects/snapfix`}>Google Glass app for Angie&apos;s List SnapFix</a>.
                     </li>
                     <li>
                         Second place winner in{' '}
@@ -74,12 +72,8 @@ export default function AboutMeHome() {
                         >
                             FeedTheHack hackathon by Appirio
                         </a>{' '}
-                        for{' '}
-                        <a href="https://github.com/likebeats/IndyFoodTruck-iOS" target="_blank">
-                            IndyFoodTrucks
-                        </a>
-                        , an iOS app that allowed food truck customers to find their favorite food trucks throughout
-                        Indy.
+                        for <a href={`${REPO_PREFIX}/projects/indy-food-trucks`}>IndyFoodTrucks</a>, an iOS app that
+                        allowed food truck customers to find their favorite food trucks throughout Indy.
                     </li>
                 </ul>
             </div>

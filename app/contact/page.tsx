@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import { REPO_PREFIX } from '../constants';
 
 export default function Contact() {
     return (
@@ -13,13 +12,13 @@ export default function Contact() {
             </div>
             <div className="flex justify-center space-x-4">
                 <a href="https://www.linkedin.com/in/likebeats" target="_blank">
-                    <Image src={`${REPO_PREFIX}/images/linkedin-icon.png`} alt="LinkedIn" width={40} height={40} />
+                    <Image src={`images/linkedin-icon.png`} alt="LinkedIn" width={40} height={40} />
                 </a>
                 <a href="https://github.com/mannybatth" target="_blank">
-                    <Image src={`${REPO_PREFIX}/images/github-icon.png`} alt="Github" width={40} height={40} />
+                    <Image src={`images/github-icon.png`} alt="Github" width={40} height={40} />
                 </a>
                 <a href="https://wellfound.com/u/likebeats" target="_blank">
-                    <Image src={`${REPO_PREFIX}/images/angel-list-icon.png`} alt="wellfound" width={40} height={40} />
+                    <Image src={`images/angel-list-icon.png`} alt="wellfound" width={40} height={40} />
                 </a>
             </div>
         </div>

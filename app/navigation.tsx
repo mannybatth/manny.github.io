@@ -6,7 +6,7 @@ import { usePathname } from 'next/navigation';
 export default function Navigation() {
     const pathname = usePathname();
 
-    const isActive = (path: string) => pathname === path;
+    const isActive = (path: string, allowChild = false) => (allowChild ? pathname.includes(path) : pathname === path);
 
     return (
         <nav className="absolute top-0 w-full pt-5 h-21 text-xs sm:text-base">
@@ -22,7 +22,7 @@ export default function Navigation() {
                 <li>
                     <a
                         className={`inline-block leading-[50px] hover:no-underline ${
-                            isActive('/projects') ? 'active' : ''
+                            isActive('/projects', true) ? 'active' : ''
                         }`}
                         href={`${REPO_PREFIX}/projects`}
                     >
