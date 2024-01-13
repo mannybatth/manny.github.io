@@ -17,6 +17,14 @@ export default function YikesGuest() {
                 <a href="https://www.thecn.com" target="_blank" rel="noreferrer">
                     Company Web Link
                 </a>
+                <br></br>
+                <a
+                    href="https://web.archive.org/web/20151127205459/https://itunes.apple.com/us/app/course-networking/id531484941"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    Archived App Store Link
+                </a>
             </div>
 
             <div className="flex justify-center flex-wrap gap-y-9 gap-x-2 pt-4">
