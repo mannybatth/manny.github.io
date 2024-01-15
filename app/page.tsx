@@ -30,11 +30,11 @@ export default function AboutMeHome() {
                 <h2>Skills</h2>
 
                 <p>
-                    Swift · Objective-C · JavaScript · TypeScript · Python · Java · C# · MEAN Stack · LAMP Stack ·
-                    Node.js · React.js · Next.js · Angular · Vue.js · Xamarin · React Native · HTML5 · CSS3 ·
-                    TailwindCSS · Bootstrap · Git · Xcode · Android Studio · Sketch · OOP · FP · MongoDB · PostgreSQL ·
-                    AWS · OpenAI · Google Cloud · Vertex AI · Heroku · Vercel · Firebase · Docker · Linux · Windows ·
-                    macOS · iOS · Android
+                    Swift · Objective-C · JavaScript · TypeScript · Python · Java · C# · MERN/MEAN Stack · Node.js ·
+                    React.js · Next.js · Angular · Vue.js · Xamarin · React Native · HTML5 · CSS3 · TailwindCSS ·
+                    Bootstrap · Git · Xcode · Android Studio · Sketch · OOP · FP · MongoDB · PostgreSQL · AWS · OpenAI ·
+                    Google Cloud · Vertex AI · Heroku · Vercel · Firebase · Docker · Linux · Windows · macOS · iOS ·
+                    Android
                 </p>
 
                 <br />
