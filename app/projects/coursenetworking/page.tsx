@@ -25,6 +25,14 @@ export default function YikesGuest() {
                 >
                     Archived App Store Link
                 </a>
+                <br></br>
+                <a href="https://github.com/mannybatth/CNiPhoneApp" target="_blank" rel="noreferrer">
+                    iOS App Github Source
+                </a>
+                <br></br>
+                <a href="https://github.com/mannybatth/CNAndroidApp" target="_blank" rel="noreferrer">
+                    Android App Github Source
+                </a>
             </div>
 
             <div className="flex justify-center flex-wrap gap-y-9 gap-x-2 pt-4">

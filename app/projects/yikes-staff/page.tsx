@@ -13,6 +13,11 @@ export default function YikesGuest() {
                 installations, OTA firmware updates, updates to RFID key data, unlock reporting, battery reporting,
                 staff mobile key access.
             </div>
+            <div>
+                <a href="https://github.com/mannybatth/StaffApp" target="_blank" rel="noreferrer">
+                    Github Source
+                </a>
+            </div>
 
             <div className="flex justify-center flex-wrap gap-y-9 gap-x-2 pt-4">
                 <Image src={`${REPO_PREFIX}/images/projects/yikes-staff-app-1.jpg`} width={300} height={500} alt={''} />

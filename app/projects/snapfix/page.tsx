@@ -22,6 +22,10 @@ export default function YikesGuest() {
                 >
                     Angies List Hackathon Link
                 </a>
+                <br></br>
+                <a href="https://github.com/mannybatth/Google-Glass-SnapFix" target="_blank" rel="noreferrer">
+                    Github Source
+                </a>
             </div>
 
             <div className="flex justify-center flex-wrap gap-y-9 gap-x-2 pt-4">

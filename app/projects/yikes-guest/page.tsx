@@ -21,6 +21,10 @@ export default function YikesGuest() {
                 >
                     Archived App Store Link
                 </a>
+                <br></br>
+                <a href="https://github.com/mannybatth/GuestApp" target="_blank" rel="noreferrer">
+                    Github Source
+                </a>
             </div>
 
             <div className="flex justify-center flex-wrap gap-y-9 gap-x-2 pt-4">
