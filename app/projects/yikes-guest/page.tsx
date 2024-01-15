@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import { REPO_PREFIX } from '../../constants';
 
-export default function YikesGuest() {
+export default function Page() {
     return (
         <div className="block px-4 pb-12 space-y-4">
             <div className="space-y-1">
