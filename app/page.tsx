@@ -31,10 +31,10 @@ export default function AboutMeHome() {
 
                 <p>
                     Swift · Objective-C · JavaScript · TypeScript · Python · Java · C# · MERN/MEAN Stack · Node.js ·
-                    React.js · Next.js · Angular · Vue.js · Xamarin · React Native · HTML5 · CSS3 · TailwindCSS ·
-                    Bootstrap · Git · Xcode · Android Studio · Sketch · OOP · FP · MongoDB · PostgreSQL · AWS · OpenAI ·
-                    Google Cloud · Vertex AI · Heroku · Vercel · Firebase · Docker · Linux · Windows · macOS · iOS ·
-                    Android
+                    React.js · Next.js · Angular · Vue.js · Xamarin · React Native · Flutter · HTML5 · CSS3 ·
+                    TailwindCSS · Bootstrap · Git · Xcode · Android Studio · Sketch · OOP · FP · MongoDB · PostgreSQL ·
+                    AWS · OpenAI · Google Cloud · Vertex AI · Heroku · Vercel · Firebase · Docker · Linux · Windows ·
+                    macOS · iOS · Android
                 </p>
 
                 <br />
